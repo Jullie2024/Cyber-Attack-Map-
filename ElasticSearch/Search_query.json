@@ -1,0 +1,4950 @@
+[
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "uEybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:03.755Z",
+            "message": "New connection: 200.73.140.29:51354 (172.19.0.2:22) [session: 22025de74b87]",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "22025de74b87",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.connect",
+            "protocol": "ssh",
+            "dest_ip": "172.19.0.2",
+            "src_port": 51354,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:03.755117Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "uUybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:03.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50477,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "tEybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:03.756Z",
+            "sensor": "475172cf1d23",
+            "message": "Remote SSH version: SSH-2.0-Go",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "22025de74b87",
+            "version": "SSH-2.0-Go",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.client.version",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:03.756102Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "tUybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:03.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50477,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "0UybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "210.3.88.180",
+            "t-pot_ip_int": "210.3.88.180",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:45:41.880Z",
+            "t-pot_ip_ext": "210.3.88.180",
+            "t-pot_hostname": "autonomouswindscreen",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "rdp": {
+                "tx_id": 1,
+                "event_type": "initial_response",
+                "protocol": "rdp"
+            },
+            "flow_id": 1836879872903953,
+            "geoip": {
+                "latitude": 22.25,
+                "location": {
+                    "lat": 22.25,
+                    "lon": 114.15
+                },
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Southern",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HSO",
+                "asn": 9304,
+                "city_name": "Aberdeen",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.15,
+                "ip": "210.3.88.180"
+            },
+            "event_type": "rdp",
+            "dest_ip": "141.147.186.10",
+            "src_port": 3389,
+            "host": "28f3a0a50bac",
+            "timestamp": "2022-07-16T07:45:41.880152+0000",
+            "dest_port": 50729,
+            "in_iface": "ens192",
+            "path": "/data/suricata/log/eve.json",
+            "@version": "1"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "0kybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:05.119Z",
+            "message": "login attempt [root/qqqwwweee] failed",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "22025de74b87",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "username": "root",
+            "eventid": "cowrie.login.failed",
+            "password": "qqqwwweee",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:05.119280Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "2EybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshAlgorithms.keyword",
+            "fatt_ssh.cshka.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Fatt",
+            "@timestamp": "2022-07-16T07:47:04.094Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "protocol": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51354,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:04.094263",
+            "@version": "1",
+            "fatt_ssh": {
+                "clstc": "languages_server_to_client string: ",
+                "ccacts": "none",
+                "ccastc": "none",
+                "hasshVersion": "1.0",
+                "ceastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "ckex": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "cmastc": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "cshka": "ssh-rsa-cert-v01@openssh.com,ssh-dss-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss,ssh-ed25519",
+                "cmacts": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "hassh": "01ca35584ad5a1b66cf6a9846b5b2821",
+                "clcts": "languages_client_to_server string: ",
+                "client": "SSH-2.0-Go",
+                "ceacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "2UybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:04.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50664,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "2kybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:05.061Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 613363960270010,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50664,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:05.061699+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "10ybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:04.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50664,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "3kybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:47:03.605Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 50477,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:03.605017",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "30ybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:05.000Z",
+            "raw_sig": "4:115+13:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "dist": "13",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "4UybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:05.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "4kybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:05.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "eUybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "ekybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:06.459Z",
+            "sensor": "475172cf1d23",
+            "message": "Connection lost after 2 seconds",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "duration": 2.703606605529785,
+            "session": "22025de74b87",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.closed",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.459519Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "eEybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:06.676Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1763751623207359,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.676920+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "fkybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:06.815Z",
+            "message": "New connection: 200.73.140.29:52304 (172.19.0.2:22) [session: 8579e4ac45f5]",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "8579e4ac45f5",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.connect",
+            "protocol": "ssh",
+            "dest_ip": "172.19.0.2",
+            "src_port": 52304,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.815507Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "hkybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:47:04.878Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 50664,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:04.878290",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "gEybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_freq": "1000.00 Hz",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "srv",
+            "uptime": "48 days 4 hrs 54 min (modulo 49 days)",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "uptime",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "gUybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50970,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "iEybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:36+28:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "dist": "28",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "syn",
+            "os": "Linux 3.11 and newer",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "g0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "ikybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:06.816Z",
+            "sensor": "475172cf1d23",
+            "message": "Remote SSH version: SSH-2.0-Go",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "8579e4ac45f5",
+            "version": "SSH-2.0-Go",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.client.version",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.816451Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "hEybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshServerAlgorithms.keyword"
+        ],
+        "_source": {
+            "src_ip": "10.0.0.4",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Fatt",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:06.817Z",
+            "geoip": {},
+            "protocol": "ssh",
+            "dest_ip": "200.73.140.29",
+            "src_port": 22,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.817109",
+            "@version": "1",
+            "fatt_ssh": {
+                "scastc": "zlib@openssh.com,zlib,none",
+                "slstc": "languages_server_to_client string: ",
+                "hasshServerAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none",
+                "hasshVersion": "1.0",
+                "seastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "smastc": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "smacts": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "seacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "skex": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "slcts": "languages_client_to_server string: ",
+                "server": "SSH-2.0-OpenSSH_7.9p1",
+                "sshka": "ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ssh-ed25519",
+                "hasshServer": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                "scacts": "zlib@openssh.com,zlib,none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 52304
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "hUybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:47:06.087Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 50829,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.087588",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "70ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:07.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51086,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "8UybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:07.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51086,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "9kybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:07.000Z",
+            "raw_sig": "4:115+13:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "dist": "13",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51086,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "80ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:07.547Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1661774067323528,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50970,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.547563+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "9UybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_ignored": [
+            "ssh.server.hassh.string.keyword",
+            "ssh.client.hassh.string.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:47:07.513Z",
+            "type": "Suricata",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "ssh": {
+                "server": {
+                    "hassh": {
+                        "hash": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                        "string": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "OpenSSH_7.9p1"
+                },
+                "client": {
+                    "hassh": {
+                        "hash": "01ca35584ad5a1b66cf6a9846b5b2821",
+                        "string": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "Go"
+                }
+            },
+            "flow_id": 333304175404498,
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "tx_id": 0,
+            "event_type": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.513595+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "-EybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "tos:0x22",
+            "src_ip": "185.156.73.54",
+            "t-pot_ip_int": "210.3.88.180",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:45:45.000Z",
+            "t-pot_ip_ext": "210.3.88.180",
+            "t-pot_hostname": "autonomouswindscreen",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:241+14:0:0:1024,0:::0",
+            "subject": "cli",
+            "geoip": {
+                "latitude": 55.7386,
+                "location": {
+                    "lat": 55.7386,
+                    "lon": 37.6068
+                },
+                "country_code3": "RU",
+                "as_org": "Chelyshev Sergej Aleksandrovich",
+                "continent_code": "EU",
+                "country_name": "Russia",
+                "country_code2": "RU",
+                "asn": 48817,
+                "timezone": "Europe/Moscow",
+                "longitude": 37.6068,
+                "ip": "185.156.73.54"
+            },
+            "dist": "14",
+            "ip_rep": "known attacker",
+            "dest_ip": "210.3.88.180",
+            "mod": "syn",
+            "src_port": 43530,
+            "os": "???",
+            "dest_port": 33849,
+            "host": "28f3a0a50bac",
+            "path": "/data/p0f/log/p0f.json",
+            "@version": "1"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "-UybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "118.140.170.252",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:53:43.533Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "rdp": {
+                "tx_id": 0,
+                "event_type": "initial_request",
+                "cookie": "hello"
+            },
+            "flow_id": 1206982153829018,
+            "geoip": {
+                "location": {
+                    "lat": 22.283,
+                    "lon": 114.1585
+                },
+                "latitude": 22.283,
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Central and Western District",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HCW",
+                "asn": 9304,
+                "city_name": "Central",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.1585,
+                "ip": "118.140.170.252"
+            },
+            "event_type": "rdp",
+            "dest_ip": "107.181.160.93",
+            "src_port": 3389,
+            "host": "6cd86d3eea2e",
+            "timestamp": "2022-07-16T07:53:43.533018+0000",
+            "@version": "1",
+            "dest_port": 51327,
+            "in_iface": "enp0s31f6",
+            "path": "/data/suricata/log/eve.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "-0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:43.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "subject": "srv",
+            "geoip": {
+                "dma_code": 803,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "latitude": 34.0544,
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "country_code2": "US",
+                "region_code": "CA",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "link": "Ethernet or modem",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 51327,
+            "raw_mtu": "1500",
+            "host": "6cd86d3eea2e",
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "mtu"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "_EybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic fuzzy tos:0x23",
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:43.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:112+16:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+,ecn:0",
+            "subject": "cli",
+            "geoip": {
+                "dma_code": 803,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "latitude": 34.0544,
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "country_code2": "US",
+                "region_code": "CA",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "dist": "16",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 51327,
+            "host": "6cd86d3eea2e",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "syn"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "tkybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:03.417Z",
+            "sensor": "475172cf1d23",
+            "message": "Connection lost after 2 seconds",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "duration": 2.7086181640625,
+            "session": "3148f5f9576d",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.closed",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:03.417271Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "t0ybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:03.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50477,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "00ybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_ignored": [
+            "ssh.server.hassh.string.keyword",
+            "ssh.client.hassh.string.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:47:04.437Z",
+            "type": "Suricata",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "ssh": {
+                "server": {
+                    "hassh": {
+                        "hash": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                        "string": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "OpenSSH_7.9p1"
+                },
+                "client": {
+                    "hassh": {
+                        "hash": "01ca35584ad5a1b66cf6a9846b5b2821",
+                        "string": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "Go"
+                }
+            },
+            "flow_id": 725307987811160,
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "tx_id": 0,
+            "event_type": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51354,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:04.437063+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "1UybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:47:02.296Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 50300,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:02.296987",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "1kybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshServerAlgorithms.keyword"
+        ],
+        "_source": {
+            "src_ip": "10.0.0.4",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Fatt",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:03.757Z",
+            "geoip": {},
+            "protocol": "ssh",
+            "dest_ip": "200.73.140.29",
+            "src_port": 22,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:03.757033",
+            "@version": "1",
+            "fatt_ssh": {
+                "scastc": "zlib@openssh.com,zlib,none",
+                "slstc": "languages_server_to_client string: ",
+                "hasshServerAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none",
+                "hasshVersion": "1.0",
+                "seastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "smastc": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "smacts": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "seacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "skex": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "slcts": "languages_client_to_server string: ",
+                "server": "SSH-2.0-OpenSSH_7.9p1",
+                "sshka": "ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ssh-ed25519",
+                "hasshServer": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                "scacts": "zlib@openssh.com,zlib,none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 51354
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "20ybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:04.000Z",
+            "raw_sig": "4:115+13:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "dist": "13",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50664,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "3EybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:04.332Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1554913133276755,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50477,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:04.332765+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "3UybBoIBtWOH2JNbQb4E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:05.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "d0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:06.300Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1763751623207359,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50829,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:06.300883+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "e0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "raw_sig": "4:114+14:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "dist": "14",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50970,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "fEybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 50970,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "fUybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshAlgorithms.keyword",
+            "fatt_ssh.cshka.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Fatt",
+            "@timestamp": "2022-07-16T07:47:07.162Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "protocol": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.162582",
+            "@version": "1",
+            "fatt_ssh": {
+                "clstc": "languages_server_to_client string: ",
+                "ccacts": "none",
+                "ccastc": "none",
+                "hasshVersion": "1.0",
+                "ceastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "ckex": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "cmastc": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "cshka": "ssh-rsa-cert-v01@openssh.com,ssh-dss-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss,ssh-ed25519",
+                "cmacts": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "hassh": "01ca35584ad5a1b66cf6a9846b5b2821",
+                "clcts": "languages_client_to_server string: ",
+                "client": "SSH-2.0-Go",
+                "ceacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "f0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:63+1:0:1460:mss*45,7:mss,sok,ts,nop,ws:df:0",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "h0ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_ignored": [
+            "hasshAlgorithms.keyword"
+        ],
+        "_source": {
+            "@timestamp": "2022-07-16T07:47:07.162Z",
+            "compCS": [
+                "none"
+            ],
+            "sensor": "475172cf1d23",
+            "message": "SSH client hassh fingerprint: 01ca35584ad5a1b66cf6a9846b5b2821",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Cowrie",
+            "tags": [
+                "Sensordata"
+            ],
+            "keyAlgs": [
+                "ssh-rsa-cert-v01@openssh.com",
+                "ssh-dss-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+                "ssh-ed25519-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp256",
+                "ecdsa-sha2-nistp384",
+                "ecdsa-sha2-nistp521",
+                "ssh-rsa",
+                "ssh-dss",
+                "ssh-ed25519"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "macCS": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "hmac-sha1-96"
+            ],
+            "eventid": "cowrie.client.kex",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.162886Z",
+            "path": "/data/cowrie/log/cowrie.json",
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "t-pot_ip_ext": "20.205.7.132",
+            "langCS": [
+                ""
+            ],
+            "session": "8579e4ac45f5",
+            "hassh": "01ca35584ad5a1b66cf6a9846b5b2821",
+            "kexAlgs": [
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group14-sha1"
+            ],
+            "@version": "1",
+            "encCS": [
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "arcfour256",
+                "arcfour128",
+                "arcfour",
+                "aes128-cbc",
+                "3des-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-cbc"
+            ],
+            "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "gkybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:47:06.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_freq": "249.34 Hz",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "uptime": "8 days 23 hrs 57 min (modulo 198 days)",
+            "dest_ip": "10.0.0.4",
+            "src_port": 52304,
+            "mod": "uptime",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "iUybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:07.208Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1661774067323528,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 50970,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.208789+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "8EybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:47:07.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 51086,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "8kybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:47:08.082Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 1902953660877063,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 51086,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:08.082936+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "90ybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:47:07.044Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 50970,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:07.044499",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "9EybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:47:08.212Z",
+            "message": "login attempt [root/77582580] failed",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "8579e4ac45f5",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "username": "root",
+            "eventid": "cowrie.login.failed",
+            "password": "77582580",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:47:08.212592Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "-kybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:43.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "subject": "cli",
+            "geoip": {
+                "dma_code": 803,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "latitude": 34.0544,
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "country_code2": "US",
+                "region_code": "CA",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "link": "Ethernet or modem",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 51327,
+            "raw_mtu": "1500",
+            "host": "6cd86d3eea2e",
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "mtu"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "_UybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:43.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "subject": "srv",
+            "geoip": {
+                "dma_code": 803,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "latitude": 34.0544,
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "country_code2": "US",
+                "region_code": "CA",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "dist": "1",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 51327,
+            "host": "6cd86d3eea2e",
+            "os": "???",
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "syn+ack"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "_kybBoIBtWOH2JNbQb8E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "Fatt",
+            "@timestamp": "2022-07-16T07:53:43.532Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "fatt_rdp": {
+                "requestedProtocols": "0x00000003"
+            },
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "dma_code": 803,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "latitude": 34.0544,
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "country_code2": "US",
+                "region_code": "CA",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "protocol": "rdp",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 51327,
+            "host": "6cd86d3eea2e",
+            "timestamp": "2022-07-16T07:53:43.532923",
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/fatt/log/fatt.log"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "BEybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:52.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 65447,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "_0ybBoIBtWOH2JNbQbsE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "188.226.207.26",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:53:28.813Z",
+            "sensor": "4cb1193ea3a5",
+            "t-pot_hostname": "vocationaldeputy",
+            "t-pot_ip_ext": "118.140.170.252",
+            "message": "Connection lost after 2 seconds",
+            "tags": [
+                "Sensordata"
+            ],
+            "duration": 2.5304152965545654,
+            "session": "1cbb9959a8ce",
+            "geoip": {
+                "location": {
+                    "lat": 52.3006,
+                    "lon": 4.9479
+                },
+                "latitude": 52.3006,
+                "country_code3": "NL",
+                "as_org": "DigitalOcean, LLC",
+                "continent_code": "EU",
+                "region_name": "North Holland",
+                "country_name": "Netherlands",
+                "country_code2": "NL",
+                "region_code": "NH",
+                "asn": 14061,
+                "postal_code": "1105",
+                "city_name": "Amsterdam",
+                "timezone": "Europe/Amsterdam",
+                "longitude": 4.9479,
+                "ip": "188.226.207.26"
+            },
+            "eventid": "cowrie.session.closed",
+            "ip_rep": "known attacker",
+            "host": "6cd86d3eea2e",
+            "timestamp": "2022-07-16T07:53:28.813949Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "AkybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:46:51.588Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 65294,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:51.588445",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "SkybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "210.3.88.180",
+            "t-pot_ip_int": "210.3.88.180",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:45:30.591Z",
+            "t-pot_ip_ext": "210.3.88.180",
+            "dns": {
+                "qr": true,
+                "type": "answer",
+                "rd": true,
+                "version": 2,
+                "flags": "8180",
+                "id": 499,
+                "authorities": [
+                    {
+                        "rrname": "pool.ntp.org",
+                        "soa": {
+                            "retry": 5400,
+                            "mname": "e.ntpns.org",
+                            "expire": 1209600,
+                            "refresh": 5400,
+                            "minimum": 3600,
+                            "serial": 1657957183,
+                            "rname": "hostmaster.pool.ntp.org"
+                        },
+                        "ttl": 1167,
+                        "rrtype": "SOA"
+                    }
+                ],
+                "rrname": "1.debian.pool.ntp.org",
+                "ra": true,
+                "rcode": "NOERROR",
+                "rrtype": "AAAA"
+            },
+            "t-pot_hostname": "autonomouswindscreen",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "UDP",
+            "flow_id": 1747890302810764,
+            "geoip": {
+                "latitude": 22.25,
+                "location": {
+                    "lat": 22.25,
+                    "lon": 114.15
+                },
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Southern",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HSO",
+                "asn": 9304,
+                "city_name": "Aberdeen",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.15,
+                "ip": "210.3.88.180"
+            },
+            "event_type": "dns",
+            "dest_ip": "1.1.1.1",
+            "src_port": 50522,
+            "host": "28f3a0a50bac",
+            "timestamp": "2022-07-16T07:45:30.591284+0000",
+            "dest_port": 53,
+            "in_iface": "ens192",
+            "path": "/data/suricata/log/eve.json",
+            "@version": "1"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "TkybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:46:53.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 48642,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "T0ybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:46:53.557Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 424982398948192,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 65447,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:53.557450+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "UkybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "210.3.88.180",
+            "t-pot_ip_int": "210.3.88.180",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:45:30.588Z",
+            "t-pot_ip_ext": "210.3.88.180",
+            "dns": {
+                "rrname": "1.debian.pool.ntp.org",
+                "tx_id": 1,
+                "type": "query",
+                "id": 499,
+                "rrtype": "AAAA"
+            },
+            "t-pot_hostname": "autonomouswindscreen",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "UDP",
+            "flow_id": 1747890302810764,
+            "geoip": {
+                "latitude": 22.25,
+                "location": {
+                    "lat": 22.25,
+                    "lon": 114.15
+                },
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Southern",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HSO",
+                "asn": 9304,
+                "city_name": "Aberdeen",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.15,
+                "ip": "210.3.88.180"
+            },
+            "event_type": "dns",
+            "dest_ip": "1.1.1.1",
+            "src_port": 50522,
+            "host": "28f3a0a50bac",
+            "timestamp": "2022-07-16T07:45:30.588522+0000",
+            "dest_port": 53,
+            "in_iface": "ens192",
+            "path": "/data/suricata/log/eve.json",
+            "@version": "1"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "VEybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "210.3.88.180",
+            "t-pot_ip_int": "210.3.88.180",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:45:30.588Z",
+            "t-pot_ip_ext": "210.3.88.180",
+            "dns": {
+                "rrname": "1.debian.pool.ntp.org",
+                "tx_id": 0,
+                "type": "query",
+                "id": 49375,
+                "rrtype": "A"
+            },
+            "t-pot_hostname": "autonomouswindscreen",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "UDP",
+            "flow_id": 1747890302810764,
+            "geoip": {
+                "latitude": 22.25,
+                "location": {
+                    "lat": 22.25,
+                    "lon": 114.15
+                },
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Southern",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HSO",
+                "asn": 9304,
+                "city_name": "Aberdeen",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.15,
+                "ip": "210.3.88.180"
+            },
+            "event_type": "dns",
+            "dest_ip": "1.1.1.1",
+            "src_port": 50522,
+            "host": "28f3a0a50bac",
+            "timestamp": "2022-07-16T07:45:30.588428+0000",
+            "dest_port": 53,
+            "in_iface": "ens192",
+            "path": "/data/suricata/log/eve.json",
+            "@version": "1"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "WEybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:54.000Z",
+            "raw_sig": "4:115+13:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "dist": "13",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49237,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "VkybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:46:53.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_freq": "250.40 Hz",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "uptime": "8 days 23 hrs 56 min (modulo 198 days)",
+            "dest_ip": "10.0.0.4",
+            "src_port": 48642,
+            "mod": "uptime",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "V0ybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:46:53.922Z",
+            "sensor": "475172cf1d23",
+            "message": "Connection lost after 2 seconds",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "duration": 2.7490909099578857,
+            "session": "cc010bed94e8",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.closed",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:53.922175Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "W0ybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:46:53.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 48642,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "X0ybBoIBtWOH2JNbQbwE",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "2.56.57.16",
+            "t-pot_ip_int": "10.0.6.101",
+            "@timestamp": "2022-07-16T07:44:22.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "210.3.237.178",
+            "raw_hits": "0,2,2,2",
+            "t-pot_hostname": "kindworthy",
+            "tags": [
+                "Sensordata"
+            ],
+            "subject": "cli",
+            "geoip": {
+                "dma_code": 556,
+                "latitude": 37.5202,
+                "location": {
+                    "lat": 37.5202,
+                    "lon": -77.4084
+                },
+                "country_code3": "US",
+                "as_org": "Greybeard Technology LLC",
+                "continent_code": "NA",
+                "region_name": "Virginia",
+                "country_name": "United States",
+                "region_code": "VA",
+                "country_code2": "US",
+                "asn": 395800,
+                "postal_code": "23232",
+                "city_name": "Richmond",
+                "timezone": "America/New_York",
+                "longitude": -77.4084,
+                "ip": "2.56.57.16"
+            },
+            "dest_ip": "10.0.6.101",
+            "host": "5b6d93124890",
+            "mod": "host change",
+            "reason": "ttl",
+            "@version": "1",
+            "dest_port": 5900,
+            "src_port": 62194,
+            "path": "/data/p0f/log/p0f.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "KUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:46:56.775Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 942828753534102,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 49576,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:56.775472+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "JEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:57.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49755,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "K0ybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:46:57.324Z",
+            "message": "New connection: 200.73.140.29:49520 (172.19.0.2:22) [session: d477103de777]",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "d477103de777",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "eventid": "cowrie.session.connect",
+            "protocol": "ssh",
+            "dest_ip": "172.19.0.2",
+            "src_port": 49520,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.324923Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "LUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:46:56.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_freq": "250.33 Hz",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "uptime": "8 days 23 hrs 56 min (modulo 198 days)",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49520,
+            "mod": "uptime",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "MEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:56.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49576,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "M0ybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:46:56.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:36+28:0:1460:mss*20,7:mss,sok,ts,nop,ws:df,id+:0",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "subject": "cli",
+            "dist": "28",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49520,
+            "mod": "syn",
+            "os": "Linux 3.11 and newer",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "NUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_ignored": [
+            "hasshAlgorithms.keyword"
+        ],
+        "_source": {
+            "@timestamp": "2022-07-16T07:46:57.664Z",
+            "compCS": [
+                "none"
+            ],
+            "sensor": "475172cf1d23",
+            "message": "SSH client hassh fingerprint: 01ca35584ad5a1b66cf6a9846b5b2821",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Cowrie",
+            "tags": [
+                "Sensordata"
+            ],
+            "keyAlgs": [
+                "ssh-rsa-cert-v01@openssh.com",
+                "ssh-dss-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp256-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp384-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp521-cert-v01@openssh.com",
+                "ssh-ed25519-cert-v01@openssh.com",
+                "ecdsa-sha2-nistp256",
+                "ecdsa-sha2-nistp384",
+                "ecdsa-sha2-nistp521",
+                "ssh-rsa",
+                "ssh-dss",
+                "ssh-ed25519"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "macCS": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "hmac-sha1-96"
+            ],
+            "eventid": "cowrie.client.kex",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.664434Z",
+            "path": "/data/cowrie/log/cowrie.json",
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "t-pot_ip_ext": "20.205.7.132",
+            "langCS": [
+                ""
+            ],
+            "session": "d477103de777",
+            "hassh": "01ca35584ad5a1b66cf6a9846b5b2821",
+            "kexAlgs": [
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group14-sha1"
+            ],
+            "@version": "1",
+            "encCS": [
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "arcfour256",
+                "arcfour128",
+                "arcfour",
+                "aes128-cbc",
+                "3des-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-cbc"
+            ],
+            "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "NkybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:46:55.329Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 49403,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:55.329090",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "N0ybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:46:57.332Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 942828753534102,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 49576,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.332961+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "SEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:53:33.801Z",
+            "tags": [
+                "Sensordata"
+            ],
+            "t-pot_hostname": "vocationaldeputy",
+            "flow_id": 1669644601717069,
+            "geoip": {
+                "location": {
+                    "lat": 22.283,
+                    "lon": 114.1585
+                },
+                "latitude": 22.283,
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Central and Western District",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HCW",
+                "asn": 9304,
+                "city_name": "Central",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.1585,
+                "ip": "118.140.170.252"
+            },
+            "event_type": "fileinfo",
+            "dest_ip": "162.142.125.211",
+            "src_port": 81,
+            "http": {
+                "http_port": 81,
+                "protocol": "HTTP/1.1",
+                "length": 204,
+                "http_method": "GET",
+                "url": "/",
+                "status": 200,
+                "hostname": "118.140.170.252",
+                "http_content_type": "text/html"
+            },
+            "host": "6cd86d3eea2e",
+            "dest_port": 58808,
+            "path": "/data/suricata/log/eve.json",
+            "timestamp": "2022-07-16T07:53:33.801748+0000",
+            "src_ip": "118.140.170.252",
+            "t-pot_ip_int": "118.140.170.252",
+            "t-pot_ip_ext": "118.140.170.252",
+            "proto": "TCP",
+            "fileinfo": {
+                "gaps": false,
+                "tx_id": 0,
+                "stored": false,
+                "md5": "c45b58e9c06de28cad6caf0e9f2abd32",
+                "state": "CLOSED",
+                "sid": [],
+                "magic": "HTML document, ASCII text",
+                "filename": "/",
+                "size": 204
+            },
+            "app_proto": "http",
+            "@version": "1",
+            "in_iface": "enp0s31f6"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "SUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:53:33.801Z",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "t-pot_hostname": "vocationaldeputy",
+            "flow_id": 1669644601717069,
+            "geoip": {
+                "country_name": "United States",
+                "country_code2": "US",
+                "location": {
+                    "lat": 37.751,
+                    "lon": -97.822
+                },
+                "latitude": 37.751,
+                "country_code3": "US",
+                "timezone": "America/Chicago",
+                "continent_code": "NA",
+                "longitude": -97.822,
+                "ip": "162.142.125.211"
+            },
+            "event_type": "http",
+            "ip_rep": "mass scanner",
+            "dest_ip": "118.140.170.252",
+            "http": {
+                "http_port": 81,
+                "protocol": "HTTP/1.1",
+                "length": 204,
+                "http_method": "GET",
+                "url": "/",
+                "status": 200,
+                "hostname": "118.140.170.252",
+                "http_content_type": "text/html"
+            },
+            "src_port": 58808,
+            "host": "6cd86d3eea2e",
+            "dest_port": 81,
+            "path": "/data/suricata/log/eve.json",
+            "timestamp": "2022-07-16T07:53:33.801748+0000",
+            "src_ip": "162.142.125.211",
+            "t-pot_ip_int": "118.140.170.252",
+            "t-pot_ip_ext": "118.140.170.252",
+            "proto": "TCP",
+            "tx_id": 0,
+            "@version": "1",
+            "in_iface": "enp0s31f6"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "SkybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "118.140.170.252",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "Suricata",
+            "@timestamp": "2022-07-16T07:53:33.801Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "rdp": {
+                "tx_id": 1,
+                "event_type": "initial_response",
+                "protocol": "rdp"
+            },
+            "flow_id": 1235498568752543,
+            "geoip": {
+                "location": {
+                    "lat": 22.283,
+                    "lon": 114.1585
+                },
+                "latitude": 22.283,
+                "country_code3": "HK",
+                "as_org": "HGC Global Communications Limited",
+                "continent_code": "AS",
+                "region_name": "Central and Western District",
+                "country_name": "Hong Kong",
+                "country_code2": "HK",
+                "region_code": "HCW",
+                "asn": 9304,
+                "city_name": "Central",
+                "timezone": "Asia/Hong_Kong",
+                "longitude": 114.1585,
+                "ip": "118.140.170.252"
+            },
+            "event_type": "rdp",
+            "dest_ip": "103.110.61.23",
+            "src_port": 3389,
+            "host": "6cd86d3eea2e",
+            "timestamp": "2022-07-16T07:53:33.801524+0000",
+            "@version": "1",
+            "dest_port": 34694,
+            "in_iface": "enp0s31f6",
+            "path": "/data/suricata/log/eve.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "TUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic fuzzy tos:0x23",
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "10.0.6.101",
+            "@timestamp": "2022-07-16T07:44:27.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "210.3.237.178",
+            "t-pot_hostname": "kindworthy",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:111+17:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+,ecn:0",
+            "subject": "cli",
+            "geoip": {
+                "dma_code": 803,
+                "latitude": 34.0544,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "region_code": "CA",
+                "country_code2": "US",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "dist": "17",
+            "ip_rep": "known attacker",
+            "dest_ip": "10.0.6.101",
+            "host": "5b6d93124890",
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "dest_port": 3389,
+            "src_port": 59620,
+            "path": "/data/p0f/log/p0f.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "TEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "10.0.6.101",
+            "@timestamp": "2022-07-16T07:44:27.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "210.3.237.178",
+            "t-pot_hostname": "kindworthy",
+            "tags": [
+                "Sensordata"
+            ],
+            "subject": "srv",
+            "geoip": {
+                "dma_code": 803,
+                "latitude": 34.0544,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "region_code": "CA",
+                "country_code2": "US",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "link": "Ethernet or modem",
+            "ip_rep": "known attacker",
+            "dest_ip": "10.0.6.101",
+            "host": "5b6d93124890",
+            "raw_mtu": "1500",
+            "mod": "mtu",
+            "@version": "1",
+            "dest_port": 3389,
+            "src_port": 59620,
+            "path": "/data/p0f/log/p0f.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "UEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic fuzzy tos:0x22",
+            "src_ip": "43.130.57.239",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:33.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "raw_sig": "4:48+16:0:1424:65535,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "subject": "cli",
+            "geoip": {
+                "country_name": "Japan",
+                "country_code2": "JP",
+                "location": {
+                    "lat": 35.69,
+                    "lon": 139.69
+                },
+                "latitude": 35.69,
+                "country_code3": "JP",
+                "timezone": "Asia/Tokyo",
+                "continent_code": "AS",
+                "longitude": 139.69,
+                "ip": "43.130.57.239"
+            },
+            "dist": "16",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 17234,
+            "host": "6cd86d3eea2e",
+            "os": "Windows NT kernel 5.x",
+            "@version": "1",
+            "dest_port": 38,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "syn"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "UUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "43.130.57.239",
+            "t-pot_ip_int": "118.140.170.252",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:53:33.000Z",
+            "t-pot_ip_ext": "118.140.170.252",
+            "t-pot_hostname": "vocationaldeputy",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "subject": "cli",
+            "geoip": {
+                "country_name": "Japan",
+                "country_code2": "JP",
+                "location": {
+                    "lat": 35.69,
+                    "lon": 139.69
+                },
+                "latitude": 35.69,
+                "country_code3": "JP",
+                "timezone": "Asia/Tokyo",
+                "continent_code": "AS",
+                "longitude": 139.69,
+                "ip": "43.130.57.239"
+            },
+            "link": "???",
+            "ip_rep": "known attacker",
+            "dest_ip": "118.140.170.252",
+            "src_port": 17234,
+            "raw_mtu": "1464",
+            "host": "6cd86d3eea2e",
+            "@version": "1",
+            "dest_port": 38,
+            "path": "/data/p0f/log/p0f.json",
+            "mod": "mtu"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "UkybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "10.0.6.101",
+            "@timestamp": "2022-07-16T07:44:27.000Z",
+            "type": "P0f",
+            "t-pot_ip_ext": "210.3.237.178",
+            "t-pot_hostname": "kindworthy",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "subject": "srv",
+            "geoip": {
+                "dma_code": 803,
+                "latitude": 34.0544,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "region_code": "CA",
+                "country_code2": "US",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "dist": "1",
+            "ip_rep": "known attacker",
+            "dest_ip": "10.0.6.101",
+            "host": "5b6d93124890",
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "dest_port": 3389,
+            "src_port": 59620,
+            "path": "/data/p0f/log/p0f.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "hUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshServerAlgorithms.keyword"
+        ],
+        "_source": {
+            "src_ip": "10.0.0.4",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Fatt",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:57.664Z",
+            "geoip": {},
+            "protocol": "ssh",
+            "dest_ip": "200.73.140.29",
+            "src_port": 22,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.664159",
+            "@version": "1",
+            "fatt_ssh": {
+                "scastc": "zlib@openssh.com,zlib,none",
+                "slstc": "languages_server_to_client string: ",
+                "hasshServerAlgorithms": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none",
+                "hasshVersion": "1.0",
+                "seastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "smastc": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "smacts": "hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5",
+                "seacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc",
+                "skex": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "slcts": "languages_client_to_server string: ",
+                "server": "SSH-2.0-OpenSSH_7.9p1",
+                "sshka": "ssh-rsa,ssh-dss,ecdsa-sha2-nistp256,ssh-ed25519",
+                "hasshServer": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                "scacts": "zlib@openssh.com,zlib,none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 49520
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "iUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_ignored": [
+            "fatt_ssh.hasshAlgorithms.keyword",
+            "fatt_ssh.cshka.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Fatt",
+            "@timestamp": "2022-07-16T07:46:57.664Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "protocol": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49520,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.664101",
+            "@version": "1",
+            "fatt_ssh": {
+                "clstc": "languages_server_to_client string: ",
+                "ccacts": "none",
+                "ccastc": "none",
+                "hasshVersion": "1.0",
+                "ceastc": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "ckex": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1",
+                "cmastc": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "cshka": "ssh-rsa-cert-v01@openssh.com,ssh-dss-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss,ssh-ed25519",
+                "cmacts": "hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96",
+                "hassh": "01ca35584ad5a1b66cf6a9846b5b2821",
+                "clcts": "languages_client_to_server string: ",
+                "client": "SSH-2.0-Go",
+                "ceacts": "aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc",
+                "hasshAlgorithms": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+            },
+            "path": "/data/fatt/log/fatt.log",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "ikybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_ignored": [
+            "ssh.server.hassh.string.keyword",
+            "ssh.client.hassh.string.keyword"
+        ],
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "@timestamp": "2022-07-16T07:46:58.344Z",
+            "type": "Suricata",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "proto": "TCP",
+            "ssh": {
+                "server": {
+                    "hassh": {
+                        "hash": "a4820aa8e920a4c1b6ea9367bde49ef2",
+                        "string": "curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc;hmac-sha2-512,hmac-sha2-384,hmac-sha2-56,hmac-sha1,hmac-md5;zlib@openssh.com,zlib,none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "OpenSSH_7.9p1"
+                },
+                "client": {
+                    "hassh": {
+                        "hash": "01ca35584ad5a1b66cf6a9846b5b2821",
+                        "string": "curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1;aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,chacha20-poly1305@openssh.com,arcfour256,arcfour128,arcfour,aes128-cbc,3des-cbc,aes128-gcm@openssh.com,aes128-cbc;hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha1,hmac-sha1-96;none"
+                    },
+                    "proto_version": "2.0",
+                    "software_version": "Go"
+                }
+            },
+            "flow_id": 1203168196168195,
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "tx_id": 0,
+            "event_type": "ssh",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49520,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:58.344222+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 22
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "jEybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "none",
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:59.000Z",
+            "raw_sig": "4:63+1:0:1460:mss*44,7:mss,nop,nop,sok,nop,ws:df:0",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "dist": "1",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49933,
+            "mod": "syn+ack",
+            "os": "???",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "jUybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:59.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "cli",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49933,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "jkybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "P0f",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "@timestamp": "2022-07-16T07:46:59.000Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "subject": "srv",
+            "link": "Ethernet or modem",
+            "dest_ip": "10.0.0.4",
+            "src_port": 49933,
+            "mod": "mtu",
+            "host": "9e77220c5a16",
+            "@version": "1",
+            "path": "/data/p0f/log/p0f.json",
+            "raw_mtu": "1500",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "h0ybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "200.73.140.29",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "Cowrie",
+            "@timestamp": "2022-07-16T07:46:59.028Z",
+            "message": "login attempt [root/19850515] failed",
+            "sensor": "475172cf1d23",
+            "t-pot_hostname": "forthcomingsmoke",
+            "t-pot_ip_ext": "20.205.7.132",
+            "tags": [
+                "Sensordata"
+            ],
+            "session": "d477103de777",
+            "geoip": {
+                "latitude": -34.6033,
+                "location": {
+                    "lat": -34.6033,
+                    "lon": -58.3817
+                },
+                "country_code3": "AR",
+                "as_org": "Prima S.A.",
+                "continent_code": "SA",
+                "country_name": "Argentina",
+                "country_code2": "AR",
+                "asn": 10481,
+                "timezone": "America/Argentina/Buenos_Aires",
+                "longitude": -58.3817,
+                "ip": "200.73.140.29"
+            },
+            "username": "root",
+            "eventid": "cowrie.login.failed",
+            "password": "19850515",
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:59.028939Z",
+            "@version": "1",
+            "path": "/data/cowrie/log/cowrie.json"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "nkybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "107.181.160.93",
+            "t-pot_ip_int": "10.0.6.101",
+            "@timestamp": "2022-07-16T07:44:27.295Z",
+            "type": "Rdpy",
+            "t-pot_ip_ext": "210.3.237.178",
+            "t-pot_hostname": "kindworthy",
+            "message": "2022-07-16T07:44:27.295240Z,Connection from 107.181.160.93:59620",
+            "tags": [
+                "Sensordata"
+            ],
+            "geoip": {
+                "dma_code": 803,
+                "latitude": 34.0544,
+                "location": {
+                    "lat": 34.0544,
+                    "lon": -118.244
+                },
+                "country_code3": "US",
+                "as_org": "ITL-Bulgaria Ltd.",
+                "continent_code": "NA",
+                "region_name": "California",
+                "country_name": "United States",
+                "region_code": "CA",
+                "country_code2": "US",
+                "asn": 204957,
+                "postal_code": "90009",
+                "city_name": "Los Angeles",
+                "timezone": "America/Los_Angeles",
+                "longitude": -118.244,
+                "ip": "107.181.160.93"
+            },
+            "ip_rep": "known attacker",
+            "host": "5b6d93124890",
+            "src_port": 59620,
+            "@version": "1",
+            "dest_port": 3389,
+            "path": "/data/rdpy/log/rdpy.log"
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "1UybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "params": "generic",
+            "src_ip": "117.213.80.127",
+            "t-pot_ip_int": "10.0.0.4",
+            "type": "P0f",
+            "@timestamp": "2022-07-16T07:46:59.000Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "tags": [
+                "Sensordata"
+            ],
+            "raw_sig": "4:106+22:0:1414:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0",
+            "geoip": {
+                "latitude": 13.0878,
+                "location": {
+                    "lat": 13.0878,
+                    "lon": 80.2785
+                },
+                "country_code3": "IN",
+                "as_org": "National Internet Backbone",
+                "continent_code": "AS",
+                "region_name": "Tamil Nadu",
+                "country_name": "India",
+                "country_code2": "IN",
+                "region_code": "TN",
+                "asn": 9829,
+                "postal_code": "600001",
+                "city_name": "Chennai",
+                "timezone": "Asia/Kolkata",
+                "longitude": 80.2785,
+                "ip": "117.213.80.127"
+            },
+            "subject": "cli",
+            "dist": "22",
+            "dest_ip": "10.0.0.4",
+            "src_port": 54410,
+            "mod": "syn",
+            "os": "Windows NT kernel",
+            "@version": "1",
+            "host": "9e77220c5a16",
+            "path": "/data/p0f/log/p0f.json",
+            "dest_port": 1433
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "1kybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "type": "Dionaea",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "connection": {
+                "transport": "tcp",
+                "type": "accept",
+                "protocol": "smbd"
+            },
+            "@timestamp": "2022-07-16T07:46:57.893Z",
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "dest_ip": "172.20.0.2",
+            "src_port": 49755,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:57.893086",
+            "@version": "1",
+            "path": "/data/dionaea/log/dionaea.json",
+            "src_hostname": "",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "2UybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:46:59.934Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 269017104473874,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "response": {
+                    "native_os": "Windows 7 Professional 7600",
+                    "native_lm": "Windows 7 Professional 6.1"
+                },
+                "id": 2,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_SESSION_SETUP_ANDX",
+                "tree_id": 65535,
+                "status_code": "0xc0000016",
+                "request": {
+                    "native_os": "Unix",
+                    "native_lm": "Samba"
+                },
+                "status": "STATUS_MORE_PROCESSING_REQUIRED"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 49933,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:59.934101+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    },
+    {
+        "_index": "logstash-2022.07.13-000008",
+        "_type": "_doc",
+        "_id": "2EybBoIBtWOH2JNbQb0E",
+        "_score": 1.0,
+        "_source": {
+            "src_ip": "14.99.248.50",
+            "t-pot_ip_int": "10.0.0.4",
+            "tags": [
+                "_geoip_lookup_failure",
+                "Sensordata"
+            ],
+            "@timestamp": "2022-07-16T07:46:59.398Z",
+            "t-pot_ip_ext": "20.205.7.132",
+            "t-pot_hostname": "forthcomingsmoke",
+            "type": "Suricata",
+            "proto": "TCP",
+            "flow_id": 269017104473874,
+            "geoip": {
+                "country_name": "India",
+                "country_code2": "IN",
+                "latitude": 20.0,
+                "location": {
+                    "lat": 20.0,
+                    "lon": 77.0
+                },
+                "country_code3": "IN",
+                "timezone": "Asia/Kolkata",
+                "continent_code": "AS",
+                "longitude": 77.0,
+                "ip": "14.99.248.50"
+            },
+            "event_type": "smb",
+            "smb": {
+                "session_id": 0,
+                "client_dialects": [
+                    "NT LM 0.12",
+                    "SMB 2.002",
+                    "SMB 2.???"
+                ],
+                "id": 1,
+                "dialect": "NT LM 0.12",
+                "command": "SMB1_COMMAND_NEGOTIATE_PROTOCOL",
+                "tree_id": 0,
+                "status_code": "0x0",
+                "status": "STATUS_SUCCESS",
+                "server_guid": "3865ff0b-7e54-426c-3ea4-d21244169711"
+            },
+            "dest_ip": "10.0.0.4",
+            "src_port": 49933,
+            "host": "9e77220c5a16",
+            "timestamp": "2022-07-16T07:46:59.398014+0000",
+            "@version": "1",
+            "in_iface": "eth0",
+            "path": "/data/suricata/log/eve.json",
+            "dest_port": 445
+        }
+    }
+]
