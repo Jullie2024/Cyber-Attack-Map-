@@ -66,9 +66,6 @@ Configure the Attack Map Server, extract the flags to the right place:
 Start the Attack Map Server:
 
                 sudo python3 AttackMapServer.py
-
-
-## Open the map
-
-Use http://localhost:8888/ or http://127.0.0.1:8888/
+Open the map
+            Use http://localhost:8888/ or http://127.0.0.1:8888/
 
