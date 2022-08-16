@@ -12,7 +12,7 @@ I completed this project as part of my summer 2022 internship. The goal of the p
 This geoip attack map visualizer was developed to display network attacks on an organization in real time. The data server follows a syslog file, and parses out source IP, destination IP, source port, and destination port. The visualizations vary in color based on protocol type. [Click here](https://www.youtube.com/watch?v=t8NOJqvydkA) for a demo video
 
 ## Important information
-This program relies entirely on syslog, and because all appliances format logs differently, you will need to customize the log parsing function(s). If your organization uses a security information and event management system (SIEM), it can probably normalize logs to save you a ton of time writing regex.
+This program relies entirely on syslog, and because all applications format logs differently, you will need to customize the log parsing function(s). If your organization uses a security information and event management system (SIEM), it can probably normalize logs to save you a ton of time writing regex.
 
 * Send all syslog to SIEM.
 * Use SIEM to normalize logs.
@@ -72,20 +72,3 @@ Start the Attack Map Server:
 
 Use http://localhost:8888/ or http://127.0.0.1:8888/
 
-To access via browser on another computer, use the external IP of the machine running the AttackMapServer,
-
-   Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
-
-        var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
-        
-   To, for example:
-
-        var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
-
-Restart the Attack Map Server:
-
-        sudo python3 AttackMapServer.py
-
-On the other computer, points the browser to:
-
-        http://192.168.1.100:8888/
