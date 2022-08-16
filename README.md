@@ -42,7 +42,7 @@ Install python requirements:
                 sudo pip3 install -U -r requirements.txt
 Start Redis Server:
 
-                redis-server
+                redis-server              
 Configure the Data Server DB:
 
                 cd DataServerDB
@@ -56,16 +56,17 @@ Start the Syslog Gen Script, inside DataServer directory:
 
 * Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
 
-                ./syslog-gen.py                 
+               ./syslog-gen.py                 
 Configure the Attack Map Server, extract the flags to the right place:
 
 * Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
 
-                cd AttackMapServer/
-                unzip static/flags.zip : make sure the unzipped file is still inside AttackMapServer
+              cd AttackMapServer/
+              unzip static/flags.zip : make sure the unzipped file is still inside AttackMapServer
 Start the Attack Map Server:
 
-                sudo python3 AttackMapServer.py
-Open the map
-            Use http://localhost:8888/ or http://127.0.0.1:8888/
+              sudo python3 AttackMapServer.py
+Open the map:
+
+              Use http://localhost:8888/ or http://127.0.0.1:8888/
 
