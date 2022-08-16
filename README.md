@@ -55,22 +55,24 @@ Start the Attack Map Server:
 *       sudo python3 AttackMapServer.py
 
 
+## Open the map
 
-Access the Attack Map Server from browser:
+Use http://localhost:8888/ or http://127.0.0.1:8888/
 
-http://localhost:8888/ or http://127.0.0.1:8888/
+To access via browser on another computer, use the external IP of the machine running the AttackMapServer:
 
-To access via browser on another computer, use the external IP of the machine running the AttackMapServer.
+   Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
 
-Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
+        var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
+        
+   To, for example:
 
-var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
-To, for example:
+        var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
 
-var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
 Restart the Attack Map Server:
 
-sudo python3 AttackMapServer.py
+        sudo python3 AttackMapServer.py
+
 On the other computer, points the browser to:
 
-http://192.168.1.100:8888/
+        http://192.168.1.100:8888/
