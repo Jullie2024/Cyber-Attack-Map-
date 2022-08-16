@@ -24,4 +24,50 @@ This program relies entirely on syslog, and because all appliances format logs d
 * Add headquarters latitude/longitude to hqLatLng variable in index.html
 * Use syslog-gen.py to push your own data to syslog or visualize your own data on the map
 
+## To Deploy the Tool
 
+I ran my code on Linux 20.04 LTS and using python 3.8
+
+    Clone the application
+*       git clone https://github.com/matthewclarkmay/geoip-attack-map.git
+* Install system dependencies
+      sudo apt install python3-pip redis-server
+* Install python requirements:
+      cd geoip-attack-map
+      sudo pip3 install -U -r requirements.txt
+* Start Redis Server:
+      redis-server
+* Configure the Data Server DB:
+      cd DataServerDB
+      ./db-dl.sh
+      cd ..   
+* Start the Data Server:
+      cd DataServer
+      sudo python3 DataServer.py
+* Start the Syslog Gen Script, inside DataServer directory:
+   Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
+      ./syslog-gen.py   
+Configure the Attack Map Server, extract the flags to the right place:
+  Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
+      cd AttackMapServer/
+      unzip static/flags.zip : make sure the unzipped file is still inside AttackMapServer
+ *  Start the Attack Map Server:
+      sudo python3 AttackMapServer.py
+Access the Attack Map Server from browser:
+
+http://localhost:8888/ or http://127.0.0.1:8888/
+
+To access via browser on another computer, use the external IP of the machine running the AttackMapServer.
+
+Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
+
+var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
+To, for example:
+
+var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
+Restart the Attack Map Server:
+
+sudo python3 AttackMapServer.py
+On the other computer, points the browser to:
+
+http://192.168.1.100:8888/
